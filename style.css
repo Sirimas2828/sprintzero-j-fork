@@ -8,7 +8,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato';
-    font-size:;
 }
 
 body {
@@ -27,13 +26,14 @@ body {
 }
 .contact-box {
     display: flex;
-    margin-left: 10px;
     text-align: justify;
     background-color: var(--primary-light);
     padding: 30px 30px 30px;
     border-radius: 25px;
     background-image: url('https://cdn-icons-png.flaticon.com/512/7798/7798941.png');
-    background-size: auto;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .form-right {
     padding-top: 50px;
@@ -43,13 +43,13 @@ body {
     text-align: center;
     background-color: var(--primary-dark); 
     border-radius: 25px;
-    font: #fff;
-    width: auto;
+    width: 95%;
+    font-style: bold;
+    color:white;
 
 }
 .button:hover {
     background-color: plum; 
-    color: white;
   }
 #contact {
     font-size: 40px;
@@ -65,4 +65,13 @@ body {
 }
 .location {
     color: var(--primary-dark);
+}
+.name {
+    border-radius: 5px;
+}
+.email {
+    border-radius: 5px;
+}
+.message {
+    border-radius: 5px;
 }
